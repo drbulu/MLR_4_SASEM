@@ -7,3 +7,13 @@ https://www.r-bloggers.com/illustrated-guide-to-roc-and-auc/
 https://www.r-bloggers.com/roc-curves-and-classification/
 https://stackoverflow.com/questions/43877848/lasso-logistic-regression-suitable-for-imbalanced-data
 https://stackoverflow.com/questions/30959484/logistic-regression-with-caret-and-glmnet-in-r
+
+# also need to change
+
+# regression modes: arguments to train()
+
+stepwise: method = 'glmStepAIC'
+forward: method = 'leapForward'
+backwards: method = 'leapBackward'
+
+boosting: method = "glmboost"
